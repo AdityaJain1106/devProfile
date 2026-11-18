@@ -1,0 +1,339 @@
+
+.journey-section {
+  padding: 80px 6vw;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  overflow: hidden;
+}
+
+.journey-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.journey-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+}
+
+.journey-eyebrow span {
+  width: 28px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.journey-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+  margin: 32px 0 64px;
+}
+
+.journey-heading h2 {
+  margin: 0;
+  font-size: clamp(48px, 7vw, 94px);
+  line-height: 0.91;
+  letter-spacing: -0.075em;
+}
+
+.journey-heading h2 span {
+  color: var(--text-secondary);
+}
+
+.journey-heading > p {
+  max-width: 330px;
+  margin: 0 0 8px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.education-layout {
+  display: grid;
+  grid-template-columns: 1.65fr 0.85fr;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.education-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 510px;
+  padding: clamp(24px, 4vw, 48px);
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+}
+
+.education-topline,
+.academic-history-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-secondary);
+  font-size: 9px;
+  letter-spacing: 0.13em;
+}
+
+.education-topline svg {
+  color: var(--accent);
+}
+
+.education-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin: 54px 0 44px;
+}
+
+.education-monogram {
+  width: 76px;
+  height: 76px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+}
+
+.education-details {
+  min-width: 0;
+}
+
+.education-label {
+  color: var(--text-secondary);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+}
+
+.education-details h3 {
+  margin: 12px 0 7px;
+  font-size: clamp(25px, 3.5vw, 42px);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}
+
+.education-details h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.education-institution {
+  margin: 24px 0 14px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.education-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.education-meta span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.education-score {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: auto;
+  padding: 25px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.education-score-value {
+  margin-top: 9px;
+  font-size: clamp(64px, 9vw, 112px);
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.09em;
+  font-variant-numeric: tabular-nums;
+}
+
+.education-score-value span {
+  margin-left: 8px;
+  color: var(--text-secondary);
+  font-size: 22px;
+  letter-spacing: -0.04em;
+}
+
+.education-score-caption {
+  display: block;
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.education-score-mark {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.education-bottomline {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 22px;
+  color: var(--text-secondary);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+.academic-history {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid var(--border);
+  background: var(--bg-primary);
+}
+
+.academic-history-count {
+  font-size: 9px;
+}
+
+.academic-record {
+  display: grid;
+  grid-template-columns: 25px 1fr auto;
+  align-items: start;
+  gap: 12px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.academic-record-number {
+  color: var(--text-secondary);
+  font-size: 10px;
+}
+
+.academic-record-qualification {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.academic-record-content h4 {
+  margin: 9px 0 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.academic-record-content p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.academic-record-score {
+  font-size: 16px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.academic-history-note {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: auto;
+  padding-top: 24px;
+  color: var(--text-secondary);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.academic-note-dot {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .education-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .education-main {
+    min-height: 480px;
+  }
+
+  .academic-history {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .journey-section {
+    padding: 90px 5vw;
+  }
+
+  .journey-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .education-main {
+    min-height: 440px;
+    padding: 24px;
+  }
+
+  .education-content {
+    flex-direction: column;
+    gap: 22px;
+    margin: 38px 0;
+  }
+
+  .education-monogram {
+    width: 60px;
+    height: 60px;
+    font-size: 19px;
+  }
+
+  .education-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .education-score-value {
+    font-size: 76px;
+  }
+
+  .education-bottomline {
+    font-size: 8px;
+  }
+
+  .academic-history {
+    padding: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-section {
+    scroll-behavior: auto;
+  }
+}
